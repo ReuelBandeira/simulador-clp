@@ -1,0 +1,34 @@
+{
+  "name": "clp-simulator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit && vite build",
+    "start": "node --env-file=.env --import tsx src/server.ts",
+    "dev": "npm run build && npm start",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "modbus-serial": "^8.0.25",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "toastify-js": "^1.12.0",
+    "tsx": "^4.20.0",
+    "ws": "^8.21.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/toastify-js": "^1.12.4",
+    "@types/ws": "^8.18.1",
+    "typescript": "^5.9.0",
+    "vite": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

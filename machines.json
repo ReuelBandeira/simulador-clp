@@ -1,0 +1,11 @@
+[
+  {
+    "id": "m1",
+    "name": "Estação 01",
+    "port": 1502,
+    "unitId": 1,
+    "manufacturer": "generic",
+    "model": "generic",
+    "behaviors": []
+  }
+]
